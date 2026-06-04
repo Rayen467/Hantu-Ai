@@ -1,4 +1,5 @@
 import { SignUp } from "@clerk/nextjs";
+import { Zap, Users, FileText } from "lucide-react";
 
 export default function SignUpPage() {
   return (
@@ -8,20 +9,20 @@ export default function SignUpPage() {
         <div className="max-w-md mx-auto w-full">
           <h1 className="text-3xl font-bold tracking-tight mb-2">Hantu-Ai</h1>
           <p className="text-muted-foreground text-lg mb-8">
-            Your intelligent workspace.
+            Design systems at the speed of thought.
           </p>
           <ul className="space-y-4 text-sm text-muted-foreground">
             <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-              Real-time collaboration
+              <Zap className="h-4 w-4 text-primary" />
+              AI Architecture Generation
             </li>
             <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-              AI-powered design generation
+              <Users className="h-4 w-4 text-primary" />
+              Real-time Collaboration
             </li>
             <li className="flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary" />
-              Seamless version control
+              <FileText className="h-4 w-4 text-primary" />
+              Instant Spec Generation
             </li>
           </ul>
         </div>
