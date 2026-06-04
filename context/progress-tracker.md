@@ -4,11 +4,11 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Phase 1: Design System & UI Primitives
+- Phase 1: Design System & UI Primitives / Phase 2: Editor Chrome
 
 ## Current Goal
 
-- Define the immediate implementation goal here.
+- Implement base editor chrome (navbar and sidebar).
 
 ## Completed
 
@@ -16,7 +16,7 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## In Progress
 
-- None yet.
+- 02-editor.md: Build Editor Navbar and Project Sidebar.
 
 ## Next Up
 
