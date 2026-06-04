@@ -4,19 +4,20 @@ Update this file whenever the current phase, active feature, or implementation s
 
 ## Current Phase
 
-- Phase 1: Design System & UI Primitives / Phase 2: Editor Chrome
+- Phase 3: Authentication
 
 ## Current Goal
 
-- Implement base editor chrome (navbar and sidebar).
+- Implement Clerk authentication (sign-in, sign-up, route protection).
 
 ## Completed
 
 - 01-design-system.md: Install and configure shadcn/ui and lucide-react, add primitive components.
+- 02-editor.md: Build Editor Navbar and Project Sidebar.
 
 ## In Progress
 
-- 02-editor.md: Build Editor Navbar and Project Sidebar.
+- 03-auth.md: Implement authentication with Clerk.
 
 ## Next Up
 
